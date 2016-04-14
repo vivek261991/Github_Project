@@ -11,7 +11,7 @@ def add(x, y):
 print("Select operation.")
 print("1.Add")
 
-choice = str(raw_input("Enter choice(1/2/3/4):"))
+choice = str(raw_input("Enter choice(1/2/3/4):"));
 
 num1 = int(raw_input("Enter first number: "))
 num2 = int(raw_input("Enter second number: "))
