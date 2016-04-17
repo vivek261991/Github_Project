@@ -11,11 +11,16 @@ def sub(x, y):
 
    return x - y
 
+def mul(x, y):
+   """This function subtracts two numbers"""
+
+   return x * y
 
 # take input from the user
 print("Select operation.")
 print("1.Add")
 print("2.Sub")
+print("3.Mul")
 
 choice = str(raw_input("Enter choice(1/2):"));
 
@@ -26,5 +31,7 @@ if choice == '1':
    print(num1,"+",num2,"=", add(num1,num2))
 if choice == '2':
    print(num1,"-",num2,"=", sub(num1,num2))
+if choice == '3':
+   print(num1,"*",num2,"=", mul(num1,num2))
 else:
    print("Invalid input")
